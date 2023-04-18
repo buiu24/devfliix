@@ -1,0 +1,185 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	background-color: black;
+	text-align: center;
+	padding: 20px 10px;
+}
+:root {
+	--cor-fundo: #000;
+	--cor-texto: #fff;
+	--cor-botao: #009748;
+	--cor-fundo2: #222634;
+}
+#sessão1 {
+	background-color: var(--cor-fundo);
+	height: 900px;
+}
+#sessão2 {
+	background-color: var(--cor-fundo2);
+	height: 900px;
+}
+#sessão3 {
+	background-color: var(--cor-fundo);
+	height: 900px;
+}
+#sessão4 {
+	background-color: var(--cor-fundo2);
+	height: 900px;
+}
+
+.container {
+	display: grid;
+	grid-template-areas: 
+	"col-esquerda col-direita";
+	grid-template-columns: 759px 760px;
+}
+.coluna_esquerda {
+	background-color: transparent;
+	text-align: center;
+	padding: 90px;
+}
+
+.p1 {
+	color: white;
+	font-family: Inter;
+	font-weight: 700;
+	font-size: 28px;
+}
+.devexpert {
+	width: 636px;
+	height: 135px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.botao {
+	display: block;
+	padding: 16px;
+	background: var(--cor-botao);
+	color: var(--cor-texto);
+	border-radius: 8px;
+	font-family: Inter;
+	font-size: 16px;
+	margin: 10px 60px 16px 60px;
+	text-decoration: none;
+}
+
+.botao2 {
+	display: block;
+	background: transparent;
+	color: var(--cor-texto);
+	border: 2px solid #fff;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 16px;
+	margin: 0px 60px;
+	font-family: Inter;
+	font-size: 16px;
+}
+
+
+.detalhe {
+	font-size: 10px;
+	color: #C0C0C0;
+	font-family: Inter;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.quarteto {
+	background-image: url('../imagens/Fundo.png');
+	background-repeat: no-repeat;
+}
+.assista {	
+	grid-area: col-esquerda;
+	margin: 258px 720px 293px 144px;
+	text-align: center;
+}
+.return {
+	grid-area: col-direita;
+	margin: 366px 108px 420px 24px;
+	color: var(--cor-texto);
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 48px;
+}
+.aproveite {
+	grid-area: col-direita;
+	margin: 432px 108px 420px 24px;
+	color: var(--cor-texto);
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 16px;
+}
+.combo {
+	color: #F9F9F9;
+	grid-area: col-esquerda;
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 16px;
+	margin: 240px 20px 512px 135px;
+}
+.botao3 {
+	display: block;
+	padding: 16px;
+	background: var(--cor-botao);
+	color: var(--cor-texto);
+	border-radius: 8px;
+	font-family: Inter;
+	font-size:
+	, 16px;
+	margin: 354px 51px 414px 165px;
+	text-decoration: none;
+	grid-area: col-esquerda;
+	text-align: center;
+}
+.combos {
+	grid-area: col-direita;
+	margin: 213px 133px 289px 51px;
+}
+.cursos {
+	grid-area: col-esquerda;
+	margin: 265px 24px 291px 135px;
+}
+.baixe {
+	grid-area: col-direita;
+	margin: 392px 108px 450px 24px;
+	color: var(--cor-texto);
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 48px;
+}
+.p2 {
+	grid-area: col-direita;
+	margin: 458px 108px 394px 24px;
+	color: var(--cor-texto);
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 16px;
+}
+.sessão5{
+	background-color: black;
+}
+/*SEÇÃO CONTATO*/
+.contato_conteudo{
+	margin: auto 0px;
+	grid-column-start: esquerda ;
+	grid-column-end: direita;
+}
+.contato_conteudo h1{
+	font-size: 48px;
+}
+.control_from {
+	text-align: center;
+	background-color: var(--fundo-form);
+	color: var(--cor-texto);
+}
+.fundo1 {
+	background-color: var(--cor-fundo);
+	height: 700px;
+}
+.container2 {
+  color: var(--cor-texto);
+  margin: auto 500px;
+}
